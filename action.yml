@@ -1,0 +1,15 @@
+name: 'Waitfor state AWS instance'
+description: 'Wait for the given state on the instance'
+inputs:
+  aws-instance-id:
+    description: 'Instance ID'
+    required: true
+  aws-region:
+    description: 'Instance region'
+    required: true
+  aws-instance-state:
+    description: 'Instance state to wait for'
+    required: true
+runs:
+  using: 'node12'
+  main: 'index.js'

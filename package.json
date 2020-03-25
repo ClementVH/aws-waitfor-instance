@@ -1,0 +1,24 @@
+{
+  "name": "aws-start-instance",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ClementVH/aws-start-instance.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ClementVH/aws-start-instance/issues"
+  },
+  "homepage": "https://github.com/ClementVH/aws-start-instance#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.3",
+    "aws-sdk": "^2.644.0"
+  }
+}
